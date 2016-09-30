@@ -6,59 +6,72 @@ using System.Threading.Tasks;
 
 namespace Project.Code
 {
-    class Validation
+    public class Validation
     {
-        private bool isValid;
+        private static Validation instance = null;
 
-        public Validation()
+        private Validation() { }
+
+        public static Validation getInstance()
         {
-            isValid = false;
+            if(instance == null)
+            {
+                instance = new Validation();
+                return instance;
+            }
+            return instance;
         }
 
-        public bool validateOperation(String operationString)
+        public string validateOperation(String operationString)
         {
-            isValid = true;
+            if(operationString.Equals("") || operationString == null)
+            {
+                return Operations.noValueMessageError;
+            }
+
             operationString = operationString.ToUpper();
 
             if(!operationString.Equals(Operations.display) && !operationString.Equals(Operations.enlist))
             {
-                isValid = false;
+                return Operations.nonExistingOperationError;
             }
 
-            return isValid;
+            return Operations.validationOK;
         }
 
-        public bool validateStrings(String firstName, String lastName)
+        public string validateStrings(String name)
         {
-            isValid = true;
 
-            if(firstName.Equals("") || firstName == null || lastName.Equals("") || lastName == null)
+            if(name.Equals("") || name == null )
             {
-                isValid = false;
+                return Operations.noValueMessageError;
             }
 
-            return isValid;
+            return Operations.validationOK;
         }
 
-        public bool validateGpa(String gpa)
+        public string validateGpa(String gpa)
         {
-            isValid = true;
             float number;
 
-            isValid = float.TryParse(gpa, out number);
-
-            if (!isValid)
+            if(gpa.Equals("") || gpa == null)
             {
-                return isValid;
+                return Operations.noValueMessageError;
+            }
+
+            bool isNumber = float.TryParse(gpa, out number);
+
+            if (!isNumber)
+            {
+                return Operations.gpaIsStringError;
             }
 
             if(number < 1 || number > 5)
             {
-                isValid = false;
-                return isValid;
+                return Operations.gpaNotInRangeError;
             }
 
-            return isValid;
+            return Operations.validationOK;
         }
 
     }

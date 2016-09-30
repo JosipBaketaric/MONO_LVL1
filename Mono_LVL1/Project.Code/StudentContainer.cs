@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Project.Code
 {
-    class StudentContainer
+    public class StudentContainer
     {
         private static StudentContainer studentContainer = null;
-        List<Student> studentList { get; }
+        public static List<Student> studentList = new List<Student>();
 
         private StudentContainer() { }
 
-        public StudentContainer getInstance()
+        public static StudentContainer getInstance()
         {
             if(studentContainer == null)
             {
@@ -26,6 +26,18 @@ namespace Project.Code
         public void enlistStudent(Student student)
         {
             studentList.Add(student);
+        }
+
+        private void sortStudents()
+        {
+            if(studentList != null)
+                studentList.OrderBy(x => x.lastName);
+        }
+
+        public List<Student> getList()
+        {
+            sortStudents();
+            return studentList;
         }
 
     }

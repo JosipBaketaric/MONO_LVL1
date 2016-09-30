@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project.Code
 {
-    class StudentIdGenerator
+    public class StudentIdGenerator
     {
         private static StudentIdGenerator idGenerator = null;
         private int studentId;
@@ -16,7 +16,7 @@ namespace Project.Code
             studentId = 0;
         }
 
-        public StudentIdGenerator getInstance()
+        public static StudentIdGenerator getInstance()
         {
             if(idGenerator == null)
             {

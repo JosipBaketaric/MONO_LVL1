@@ -1,0 +1,5 @@
+C:\Users\Josip\Desktop\PRAKSA\MONO_LVL1\Mono_LVL1\Project.Code\bin\Debug\Project.Code.dll
+C:\Users\Josip\Desktop\PRAKSA\MONO_LVL1\Mono_LVL1\Project.Code\bin\Debug\Project.Code.pdb
+C:\Users\Josip\Desktop\PRAKSA\MONO_LVL1\Mono_LVL1\Project.Code\obj\Debug\Project.Code.csprojResolveAssemblyReference.cache
+C:\Users\Josip\Desktop\PRAKSA\MONO_LVL1\Mono_LVL1\Project.Code\obj\Debug\Project.Code.dll
+C:\Users\Josip\Desktop\PRAKSA\MONO_LVL1\Mono_LVL1\Project.Code\obj\Debug\Project.Code.pdb

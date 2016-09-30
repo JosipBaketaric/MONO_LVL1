@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Project.Code
 {
-    abstract class Person
+    abstract public class Person
     {
-        String firstName { get; set; }
-        String lastName { get; set; }
-        int id { get; set; }
+        public String firstName { get; set; }
+        public String lastName { get; set; }
+        public int id { get; set; }
     }
 }

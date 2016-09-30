@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Project.Code
 {
-    class Student : Person
+    public class Student : Person
     {
-        float gpa { get; set; }
+        public float gpa { get; set; }
     }
 }
