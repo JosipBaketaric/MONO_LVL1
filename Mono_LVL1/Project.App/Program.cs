@@ -17,7 +17,7 @@ namespace Project.App
 
             do
             {
-                Console.Write("\nOperation: ");
+                Console.Write("Operation: ");
                 input = Console.ReadLine();
                 input = input.ToUpper();
 
@@ -32,12 +32,12 @@ namespace Project.App
                 }
                 else
                 {
-                    Console.Write("\n" + response);
+                    Console.Write(response + "\n");
                 }
             }
             while (input == Operations.enlist || !response.Equals(Operations.validationOK));
 
-            Console.Write("\nPress any key to exit...");
+            Console.Write("Press any key to exit...");
             Console.ReadKey();
            
         }
@@ -50,16 +50,16 @@ namespace Project.App
             float fGpa;
             string response;
 
+            Console.Write("Student");
             do
-            {
-                Console.Write("\n" + "Student");
+            {              
                 Console.Write("\n" + "First name: ");
                 firstName = Console.ReadLine();
                 response = Validation.getInstance().validateStrings(firstName);
 
                 if (!response.Equals(Operations.validationOK))
                 {
-                    Console.Write("\n" + response);
+                    Console.Write(response);
                     continue;
                 }
                     
@@ -69,13 +69,13 @@ namespace Project.App
 
             do
             {
-                Console.Write("\n" + "Last name: ");
+                Console.Write("Last name: ");
                 lastName = Console.ReadLine();
                 response = Validation.getInstance().validateStrings(lastName);
 
                 if (!response.Equals(Operations.validationOK))
                 {
-                    Console.Write("\n" + response);
+                    Console.Write(response + "\n");
                     continue;
                 }
 
@@ -84,13 +84,13 @@ namespace Project.App
 
             do
             {
-                Console.Write("\n" + "GPA: ");
+                Console.Write("GPA: ");
                 gpa = Console.ReadLine();
                 response = Validation.getInstance().validateGpa(gpa);
 
                 if (!response.Equals(Operations.validationOK))
                 {
-                    Console.Write("\n" + response);
+                    Console.Write(response + "\n");
                     continue;
                 }
 
@@ -117,11 +117,11 @@ namespace Project.App
 
             if (!studentList.Any())
             {
-                Console.Write("\n No students enlisted.");
+                Console.Write("No students enlisted.\n");
                 return;
             }
 
-            Console.Write("\n" + "Students in a system:");
+            Console.Write("Students in a system:");
 
             foreach (Student student in studentList)
             {

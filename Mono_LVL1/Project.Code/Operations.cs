@@ -13,7 +13,7 @@ namespace Project.Code
 
         public const String noValueMessageError = "You need to insert value.";
         public const String gpaIsStringError = "You need to insert numerical value.";
-        public const String nonExistingOperationError = " Operation non-existing, please use appropriate operation";
+        public const String nonExistingOperationError = " Operation non-existing, please use appropriate operation.";
 
         public const String gpaNotInRangeError = "GPA not in range.";
 
