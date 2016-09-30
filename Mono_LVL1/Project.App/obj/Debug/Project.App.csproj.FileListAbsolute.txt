@@ -7,3 +7,6 @@ c:\users\josip\documents\visual studio 2015\Projects\Project.App\Project.App\obj
 C:\Users\Josip\Desktop\PRAKSA\Mono_LVL1\Project.App\bin\Debug\Project.App.exe.config
 C:\Users\Josip\Desktop\PRAKSA\Mono_LVL1\Project.App\obj\Debug\Project.App.exe
 C:\Users\Josip\Desktop\PRAKSA\Mono_LVL1\Project.App\obj\Debug\Project.App.pdb
+C:\Users\Josip\Desktop\PRAKSA\MONO_LVL1\Mono_LVL1\Project.App\bin\Debug\Project.App.exe.config
+C:\Users\Josip\Desktop\PRAKSA\MONO_LVL1\Mono_LVL1\Project.App\obj\Debug\Project.App.exe
+C:\Users\Josip\Desktop\PRAKSA\MONO_LVL1\Mono_LVL1\Project.App\obj\Debug\Project.App.pdb
