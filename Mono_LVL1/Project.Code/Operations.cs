@@ -8,7 +8,7 @@ namespace Project.Code
 {
     public static class Operations
     {
-        static String enlist = "ENLIST";
-        static String display = "DISPLAY";
+        public static String enlist = "ENLIST";
+        public static String display = "DISPLAY";
     }
 }
