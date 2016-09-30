@@ -1,0 +1,9 @@
+c:\users\josip\documents\visual studio 2015\Projects\Project.App\Project.App\bin\Debug\Project.App.exe.config
+c:\users\josip\documents\visual studio 2015\Projects\Project.App\Project.App\bin\Debug\Project.App.exe
+c:\users\josip\documents\visual studio 2015\Projects\Project.App\Project.App\bin\Debug\Project.App.pdb
+c:\users\josip\documents\visual studio 2015\Projects\Project.App\Project.App\obj\Debug\Project.App.csprojResolveAssemblyReference.cache
+c:\users\josip\documents\visual studio 2015\Projects\Project.App\Project.App\obj\Debug\Project.App.exe
+c:\users\josip\documents\visual studio 2015\Projects\Project.App\Project.App\obj\Debug\Project.App.pdb
+C:\Users\Josip\Desktop\PRAKSA\Mono_LVL1\Project.App\bin\Debug\Project.App.exe.config
+C:\Users\Josip\Desktop\PRAKSA\Mono_LVL1\Project.App\obj\Debug\Project.App.exe
+C:\Users\Josip\Desktop\PRAKSA\Mono_LVL1\Project.App\obj\Debug\Project.App.pdb
